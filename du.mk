@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-ifeq ($(TARGET_DEVICE),s3ve3g)
+# Inherit device configuration
+$(call inherit-product, device/samsung/s3ve3g/full_s3ve3g.mk)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
-endif
-
-LOCAL_AAPT_FLAGS := --auto-add-overlay
+# Release name
+PRODUCT_RELEASE_NAME := GT-I9301I
+PRODUCT_NAME := du_s3ve3g
