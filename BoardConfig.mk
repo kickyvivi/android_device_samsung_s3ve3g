@@ -48,6 +48,8 @@ TARGET_KERNEL_CONFIG := lineageos_s3ve3g_defconfig
 
 # FM
 BOARD_HAVE_QCOM_FM := true
+AUDIO_FEATURE_ENABLED_FM := true
+TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -72,3 +74,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Build
 BLOCK_BASED_OTA := true
+
+# Dexpreopt
+WITH_DEXPREOPT := false
