@@ -1,2 +1,2 @@
-add_lunch_combo lineage_s3ve3g-eng
-add_lunch_combo lineage_s3ve3g-userdebug
+add_lunch_combo carbon_s3ve3g-eng
+add_lunch_combo carbon_s3ve3g-userdebug
