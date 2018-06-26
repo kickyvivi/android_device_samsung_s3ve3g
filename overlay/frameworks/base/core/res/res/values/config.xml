@@ -239,6 +239,7 @@
     <bool name="config_enableMultiUserUI">true</bool>
 
      <!-- Dont remove For Fixing AutoRotate -->
+    <add-resource type="bool" name="config_useSystemClockforRotationSensor">true</add-resource>
     <bool name="config_useSystemClockforRotationSensor">true </bool>
 
     <string translatable="false" name="config_radio_access_family">GSM|WCDMA</string>
